@@ -480,6 +480,7 @@ This distinction is important when working with real APIs.
 |Async/await	|Write Promise-based code readably	|await somePromise()|
 |Fetch API	|Make HTTP requests	|fetch(url)|
 |Error handling	|Detect and handle failures	|try...catch, .catch(), throw|
+
 ***Key takeaway: ***
  Fetch returns a Promise, async/await lets us work with that Promise, and error handling helps us respond when the operation fails. Callbacks are another way to run a function after an event or operation.
 ### Part 8: Practice Questions with Solutions
