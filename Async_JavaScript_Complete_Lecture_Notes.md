@@ -350,7 +350,7 @@ async function getUser() {
 getUser();
 ```
 This is a safer pattern because it checks the HTTP response status before using the response body.
-### ### 5. POST Request — Sending Data
+### 5. POST Request — Sending Data
 A POST request can send data to a server. JSON Placeholder simulates creating a post; it does not permanently save it.
 ```
 async function createPost() {
@@ -483,7 +483,7 @@ This distinction is important when working with real APIs.
 ***Key takeaway: ***
  Fetch returns a Promise, async/await lets us work with that Promise, and error handling helps us respond when the operation fails. Callbacks are another way to run a function after an event or operation.
 ### Part 8: Practice Questions with Solutions
-# Q1. Predict the output.
+### Q1. Predict the output.
 ```
 Question code:
 console.log("A");
